@@ -1,16 +1,6 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script type="text/javascript">
-       $(window).load(function(){
-           $("#searchsubmit").click(function(){
-               top.window.location.href=$(this).attr("href");
-               return true;
-           })
-       })
-</script>
-
 <div class="mastheadsearch">
 
-  <form name="searchform" method="get" action="https://catalogo.urosario.edu.co/cgi-bin/koha/opac-search.pl" id="searchform" class="form-inline">
+  <form name="searchform" method="get" target="_blank" action="https://catalogo.urosario.edu.co/cgi-bin/koha/opac-search.pl" id="searchform" class="form-inline">
 
       <input type="hidden" name="advsearch"  value="1">
 
